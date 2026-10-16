@@ -19,7 +19,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: springboot
-          image: ghcr.io/<VOTRE_USER_GITHUB>/spring-petclinic:latest
+          image: ghcr.io/yasmineelaafia/spring-petclinic:latest
           env:
             - name: SERVER_SERVLET_CONTEXT_PATH # On force le contexte de l'application à tp6
               value: "/tp6"
